@@ -1,3 +1,5 @@
+#!/bin/bash
+
 rdd() {
   if [[ -z $1 ]]; then
     echo -e "\033[31m[rmf] Path is empty\033[0m"
