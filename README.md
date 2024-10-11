@@ -5,5 +5,5 @@
 ## Usage
 
 ```bash
-source <(curl -s https://raw.githubusercontent.com/lbb00/rdd/refs/heads/master/rdd.sh) | rdd /path/to/delete/directory
+source <(curl -s https://raw.githubusercontent.com/lbb00/rdd/refs/heads/master/rdd.sh) | /usr/local/bin/rdd /path/to/delete/directory
 ```

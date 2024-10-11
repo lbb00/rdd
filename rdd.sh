@@ -38,6 +38,5 @@ rdd() {
   rm -rf "$rmf_empty_path"
   rm -rf "$path"
 
-  # 成功信息，使用标准输出
   echo -e "\033[32m[rmf] $path is deleted\033[0m"
 }
